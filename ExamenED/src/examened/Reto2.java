@@ -9,13 +9,16 @@ package examened;
  *
  * @author examened
  */
-public class ExamenED {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Reto2 {
     
+    public static void main(String[] args) {
+        
+        int num = 1;
+        
+        do {
+            System.out.println(num);
+            num ++;
+        } while (num <= 1000);
+         
+    }
 }
